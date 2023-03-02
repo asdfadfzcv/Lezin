@@ -1,0 +1,179 @@
+/* container */
+
+.container {
+  position: relative;
+  width: 1320px;
+  height: 3850px;
+  margin: 0 auto;
+}
+
+/* main */
+
+.main_photo {
+  margin-top: 52px;
+}
+
+.container h1 {
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 526px;
+}
+
+.main_photo .slick-dots {
+  bottom: -40px;
+}
+
+.main_photo .slick-dots li button {
+  background-color: #000;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  opacity: 0.2;
+  transition: width 0.3s;
+}
+
+.main_photo .slick-dots li.slick-active button {
+  opacity: 0.7;
+}
+
+/* rank */
+
+.rank {
+  position: absolute;
+  top: 556px;
+}
+
+.rank .rank_list {
+  display: flex;
+}
+
+.text_box {
+  margin-left: 10px;
+}
+
+.text_box ul li h2 {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.text_box ul li p {
+  font-size: 8px;
+  color: #72797f;
+}
+
+.rank p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.rank_list {
+  /* width: 1032px; */
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+
+.rank_list ul {
+  display: flex;
+  width: 450px;
+  gap: 10px;
+  /* padding-right: 150px; */
+}
+
+.rank_list ul .webtoon {
+  width: 100px;
+  height: 120px;
+  background-color: brown;
+  margin-top: 10px;
+}
+
+.rank_list ul .text {
+  margin-top: 20px;
+}
+
+.rank_list ul .text h3 {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.rank_list ul .text p {
+  font-size: 8px;
+  color: #72797f;
+}
+
+/* 신작 및 인기작 */
+
+.list {
+  position: absolute;
+  top: 1060px;
+}
+
+.list02 {
+  position: absolute;
+  top: 1554px;
+}
+
+.list h2,
+.list02 h2 {
+  font-size: 16px;
+}
+
+.list .web_list ul,
+.list02 .web_list ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.list .web_list ul li .img_box,
+.list02 .web_list ul li .img_box {
+  width: 300px;
+  height: 376px;
+  background-color: brown;
+}
+
+.list .web_list ul li p,
+.list02 .web_list ul li p {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.middle_banner {
+  position: absolute;
+  top: 2056px;
+}
+
+.bottom_list {
+  position: absolute;
+  top: 2348px;
+}
+
+.bottom_list .fantasy h4,
+.bottom_list .daily h4,
+.bottom_list .gag h4 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.fantasy_list,
+.daily_list,
+.gag_list {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 84px;
+}
+
+.fantasy .fantasy_list ul li .img_box,
+.daily .daily_list ul li .img_box,
+.gag .gag_list ul li .img_box {
+  width: 200px;
+  height: 260px;
+  background-color: brown;
+  margin-bottom: 10px;
+}
+
+.fantasy .fantasy_list ul li p,
+.daily .daily_list ul li p,
+.gag .gag_list ul li p {
+  font-size: 14px;
+}
