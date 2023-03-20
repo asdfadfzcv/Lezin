@@ -1,24 +1,33 @@
 /* container */
 
 .container {
-  position: relative;
-  width: 1320px;
-  height: 3850px;
+  width: 1400px;
   margin: 0 auto;
-  background-color: aquamarine;
 }
 
 /* main */
 
 .main_photo {
-  margin-top: 52px;
+  margin-top: 50px;
+}
+
+.main_photo img {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .container h1 {
   font-size: 16px;
   font-weight: bold;
-  position: absolute;
-  top: 526px;
+  margin-top: 100px;
+}
+
+.rank,
+.list,
+.list02,
+.middle_banner,
+.bottom_list {
+  margin-bottom: 100px;
 }
 
 .main_photo .slick-dots {
@@ -41,112 +50,74 @@
 /* rank */
 
 .rank {
-  position: absolute;
-  top: 556px;
+  width: 100%;
+  padding: 0 26px;
 }
 
-.rank .rank_list {
-  display: flex;
-}
-
-.text_box {
-  margin-left: 10px;
-}
-
-.text_box ul li h2 {
-  font-size: 12px;
-  margin-bottom: 6px;
-}
-.text_box ul li p {
-  font-size: 8px;
-  color: #72797f;
-}
-
-.rank p {
-  font-size: 12px;
-  font-weight: bold;
+.rank h1 {
+  font-size: 30px;
 }
 
 .rank_list {
-  /* width: 1032px; */
-  /* justify-content: space-between; */
-  margin-bottom: 20px;
-}
-
-.rank_list ul {
-  display: flex;
-  width: 450px;
-  gap: 10px;
-  /* padding-right: 150px; */
-}
-
-.rank_list ul .webtoon {
-  width: 100px;
-  height: 120px;
-  background-color: brown;
   margin-top: 10px;
 }
 
-.rank_list ul .text {
-  margin-top: 20px;
+.rank_list ul {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.rank_list ul .text h3 {
-  font-size: 12px;
-  margin-bottom: 6px;
+.webtoon h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  width: 100px;
 }
 
-.rank_list ul .text p {
-  font-size: 8px;
-  color: #72797f;
+.rank p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 /* 신작 및 인기작 */
 
 .list {
-  position: absolute;
-  top: 1060px;
+  padding: 0 26px;
 }
 
-.list02 {
-  position: absolute;
-  top: 1554px;
+.list h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.list h2,
-.list02 h2 {
-  font-size: 16px;
-}
-
-.list .web_list ul,
-.list02 .web_list ul {
+.list .web_list ul {
   display: flex;
-  gap: 40px;
-  margin-top: 20px;
+  justify-content: space-between;
 }
 
-.list .web_list ul li .img_box,
-.list02 .web_list ul li .img_box {
-  width: 300px;
-  height: 376px;
-  background-color: brown;
+.list .web_list ul li p {
+  font-size: 16px;
+  margin-top: 10px;
 }
 
-.list .web_list ul li p,
-.list02 .web_list ul li p {
-  font-size: 14px;
-  padding-top: 10px;
-  padding-left: 10px;
-}
+/* middle_banner */
 
 .middle_banner {
-  position: absolute;
-  top: 2056px;
+  width: 100%;
+  height: 180px;
+  background-image: url(../imgs/image\ 5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+/*  */
+
 .bottom_list {
-  position: absolute;
-  top: 2348px;
+  padding: 0 26px;
 }
 
 .bottom_list .fantasy h4,
@@ -160,7 +131,7 @@
 .daily_list,
 .gag_list {
   display: flex;
-  gap: 80px;
+  justify-content: space-between;
   margin-bottom: 84px;
 }
 
